@@ -1,0 +1,134 @@
+1:
+
+EAX = 00000149 EBX = 7EFDE000 ECX = 00000000 EDX = 0017100A ESI = 00000000 EDI = 00000000 EIP = 00173677 ESP = 0045FE1C EBP = 0045FE24 EFL = 00000212 
+
+
+code:
+
+INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,47
+add eax,39
+add eax,60
+add eax,85
+add eax,64
+add eax,54o
+sub eax,0Ah
+call DumpRegs
+exit
+
+main ENDP
+END main
+
+
+2:
+
+EAX = 00000043 EBX = 7EFDE000 ECX = 00000000 EDX = 00EF100A ESI = 00000000 EDI = 00000000 EIP = 00EF3677 ESP = 0035FBE0 EBP = 0035FBE8 EFL = 00000202 
+
+
+code:
+
+INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,40
+sub eax,9
+add eax,186
+sub eax,150
+call DumpRegs
+exit
+
+main ENDP
+END main
+
+
+3:
+
+EAX = 00001FB6 EBX = 7EFDE000 ECX = 00000000 EDX = 012D100A ESI = 00000000 EDI = 00000000 EIP = 012D3675 ESP = 003EFA98 EBP = 003EFAA0 EFL = 00000212 
+
+code:
+
+INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,10110b
+add eax,50Ah
+add eax,6710d
+add eax,1010001b
+add eax,0Fh
+call DumpRegs
+exit
+
+main ENDP
+END main
+
+4:
+EAX = FFFFF513 EBX = 7EFDE000 ECX = 00000000 EDX = 0131100A ESI = 00000000 EDI = 00000000 EIP = 0131367B ESP = 0039FED0 EBP = 0039FED8 EFL = 00000292 
+
+code:
+
+INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,10001101b
+sub eax,0D83h
+add eax,385
+add eax,10
+add eax,1111101b
+sub eax,0Eh
+add eax,0Fh
+call DumpRegs
+exit
+
+main ENDP
+END main
+
+5:
+
+
+EAX = 00000000 EBX = 00000000 ECX = 00000000 EDX = 00000001 ESI = 011E100A EDI = 011E100A EIP = 011E367B ESP = 004FF93C EBP = 004FF94C EFL = 00000202 
+
+
+code:
+
+    INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,0
+mov edx,0
+mov ecx,0
+mov ebx,0
+sub edx,eax
+add edx,1
+add edx,ebx
+add edx,edx
+sub edx,ecx
+add edx,0Ah
+sub edx,65o
+add edx,73d
+call DumpRegs
+exit
+
+main ENDP
+END main
+6:
+
+
+EAX = 00000015 EBX = 7EFDE000 ECX = 00000000 EDX = 0104100A ESI = 00000000 EDI = 00000000 EIP = 01043677 ESP = 0043FC34 EBP = 0043FC3C EFL = 00000213 
+
+
+INCLUDE Irvine32.inc
+.code
+main PROC
+mov eax,5ADh
+sub eax,eax
+add eax,65o
+add eax,65d
+sub eax,11110111b
+add eax,150
+call DumpRegs
+exit
+
+main ENDP
+END main
